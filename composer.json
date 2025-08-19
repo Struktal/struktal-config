@@ -1,0 +1,17 @@
+{
+    "name": "struktal/struktal-config",
+    "description": "PHP library for configuring Struktal applications",
+    "keywords": [
+        "config"
+    ],
+    "type": "library",
+    "license": "MIT",
+    "autoload":{
+        "psr-4": {
+            "struktal\\Config\\": "src/"
+        }
+    },
+    "require": {
+        "php": ">=8.2.0"
+    }
+}
